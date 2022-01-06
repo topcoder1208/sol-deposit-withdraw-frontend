@@ -9,6 +9,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, '../client', 'index.html'));
 });
 
-//server listening to port 8000
-app.listen(8000, () => console.log('The server is running port 8000...'));
+//server listening to port 3001
+app.listen(3001, () => console.log('The server is running port 3001...'));
 
